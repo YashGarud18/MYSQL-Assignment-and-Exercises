@@ -50,19 +50,17 @@ git clone https://github.com/your-username/MYSQL-Assignment-and-Exercises.git
 cd MYSQL-Assignment-and-Exercises
 
 3)Make sure you have MySQL installed on your system.
+
 4)Create a new database for your assignments:
 CREATE DATABASE mysql_assignments;
 
-Import the SQL files into the database:
-
+5)Import the SQL files into the database:
 mysql -u username -p mysql_assignments < assignment1.sql
 Replace username with your MySQL username.
 
 🚀 Usage
 Once you've set up the database, you can start running the queries from the SQL files provided in each folder. For example:
 
-sql
-Copy code
 SELECT * FROM employees WHERE salary > 50000;
 You can modify, experiment with, and run the queries directly in your MySQL client or IDE. 🔄
 
